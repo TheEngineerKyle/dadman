@@ -1,0 +1,66 @@
+
+.wcontent{
+  max-height:65vh;
+overflow:scroll;
+max-width:800px;
+  margin:0 auto;
+text-align:center;
+}
+.talk-wrap{
+  max-width:800px;
+  margin:0 auto;
+  max-height:80px;
+}
+.wtalk{
+  display:flex;
+  align-items:center;
+justify-content:space-between;
+   max-height:80px;
+padding:5px 20px;
+}
+.talk-wrap:nth-child(odd) .wtalk{
+background-color:rgba(0,0,0,.1)
+}
+.ppbutton{
+  font-size: 35px;
+  cursor: pointer;
+}
+.material-icons-outlined{
+  font-size:30px;
+}
+.wtime{
+  font-size:10px;
+  min-width:90px;
+}
+.wtitle{
+  font-size:1vw;
+  flex-grow:1;
+}
+.wshare-icon{
+    min-width:70px;
+}
+@media only screen and (max-width: 600px) {
+
+.material-icons-outlined{
+  font-size:30px;
+}
+.wtime h1{
+  font-size:15px;
+  min-width:30px;
+}
+.wtitle{
+  font-size:2vw;
+  flex-grow:1;
+}
+.wshare-icon{
+    min-width:50px;
+   flex-shrink:2;
+    flex-grow:0;
+}
+  .play,
+.pause {
+    width:25px;
+    height: 230px;
+    border: 0px;
+}
+}
