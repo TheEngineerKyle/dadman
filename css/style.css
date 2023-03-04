@@ -487,14 +487,16 @@ table {
 
 
 .hero h3 {
-	font-size: 20px;
+	font-size: 30px;
 	margin:0;
 	padding:0;
 	opacity:0.5;
 	color: #E04343;
-	letter-spacing: 18px;
-	line-height: 50px;
+	letter-spacing: 10px;
+	line-height: 35px;
+	font-weight: 200;
 	text-transform: none;
+	
 }
 .hero p {
 	letter-spacing:1px;
@@ -893,10 +895,10 @@ img.grayscale:hover {
 }
 .outline-btn {
 	display:inline-block;
-	padding:25px 40px;
+	padding:10px 10px;
 	color: #FFE801;
 	border: solid 1px #FFE801;
-	text-transform:uppercase;
+	text-transform:none;
 	font-weight:bold;
 	letter-spacing:1px;
 }
