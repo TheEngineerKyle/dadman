@@ -14,8 +14,8 @@ const coverArt = document.querySelector("#cover");
 const musicbox = document.querySelector("#musicbox");
 
 // control button images
-let playImg = "./assets/images/play.svg";
-let pauseImg = "./assets/images/pause.svg";
+let playImg = "./assets/music/images/play.svg";
+let pauseImg = "./assets/music/images/pause.svg";
 
 // default controls
 playPause.src = playImg;
