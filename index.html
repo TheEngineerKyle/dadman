@@ -4,6 +4,8 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords" content="HTML, Javascript, CSS, Codeer, 100DayOfCode." />
+    <meta name="description" content="Music Player built with Vanilla Javascript." />
 	<!-- Website Title -->
     <title>Piano Man Dennis</title>
     <!-- Bootstrap -->
@@ -101,57 +103,34 @@
         </div>
       </div>
     </div>
-
+    
 <!-- Music -->
-<link href="assets/music/music.css" rel="stylesheet">
-<div class="media-controls">
-      <div class="media-buttons">
-            <button class="back-button media-button" label="back">
-                  <i class="fa-sharp fa-regular fa-circle-play"></i>
-                  <span class="button-text milli">Back</span>
-            </button>
+<link href="assets/music/style.css" rel="stylesheet">
 
-            <button class="rewind-button media-button" label="rewind">
-                  <i class="fas fa-backward button-icons"></i>
-                  <span class="button-text milli">Rewind</span>
-            </button>
-
-            <button class="play-button media-button" label="play">
-                  <i class="fas fa-play button-icons delta"></i>
-                  <span class="button-text milli">Play</span>
-            </button>
-
-            <button class="fast-forward-button media-button" label="fast forward">
-
-                  <i class="fas fa-forward button-icons"></i>
-                  <span class="button-text milli">Forward</span>
-            </button>
-
-            <button class="skip-button media-button" label="skip">
-                  <i class="fas fa-step-forward button-icons"></i>
-                  <span class="button-text milli">Skip</span>
-            </button>
+  <div class="container">
+    <div class="playbox">
+      <div class="controller">
+        <div id="circle-bg" class="circle">
+          <div id="circle-sm" class="circle2"><img id="cover" src="" class="fluid-img"></div>
+        </div>
+        <div class="songs">
+          <h2 id="song-name">Travel love Beats</h2>
+          <div class="controls">
+            <audio id="audio" src=""></audio>
+            <img id="backward" class="media-btn" src="./assets/music/images/backward-button.png">
+            <img id="play-stop" class="media-btn" src="./assets/music/images/backward-button.png">
+            <img id="forward" class="media-btn" src="./assets/music/images/fast-forward.png">
+          </div>
+        </div>
       </div>
-      <div class="media-progress">
-            <div class="progress-bar-wrapper progress">
-                  <div class="progress-bar">
-                  </div>
-            </div>
-            <div class="progress-time-current milli">
-                  15:23
-            </div>
-            <div class="progress-time-total milli">
-                  34:40
-            </div>
-      </div>
-</div>
+    </div>
+  </div>
+
+
+</section>
 
 
 
-
-
-
-  </section>
 
 <!-- ==========================SERVICE SECTION=========================== -->
            <!-- SERVICE 1 -->
@@ -322,6 +301,8 @@
         </footer>
 		<!-- ==========================FOOTER SECTION END=========================== -->		
 	
+    <!-- Music -->
+    <script src="./assets/music/app.js" type="text/javascript"></script>
     <!-- jQuery -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <!-- SmoothScroll -->           
@@ -345,6 +326,7 @@
 	<!-- Theme JavaScript Core -->
 	<script src="js/main.js"></script>
 	<script src="js/script.js"></script>
+
 
 	<!-- GOOGLE MAPS DATA -->
     <script type="text/javascript">
