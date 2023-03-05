@@ -12,8 +12,6 @@
     <link href="assets/font-awesome/css/font-awesome.min.css" rel="stylesheet">
 	<!-- Lightbox -->
 	<link href="assets/lightbox/css/lightbox.css" rel="stylesheet">
-  <!-- Music -->
-  <link href="assets/music/music.css" rel="stylesheet">
     <!-- Text Rotator-->
 	<link href="assets/textrotator/simpletextrotator.css" rel="stylesheet">
 	<!-- FlexSlider -->
@@ -32,9 +30,9 @@
     <![endif]-->
   </head>
     <body id="top">
-      <!-- ****************************** Preloader ************************** -->
-      <div id="preloader"></div>
-	  	<!-- ==========================HEADER SECTION=========================== -->
+<!-- ****************************** Preloader ************************** -->
+    <div id="preloader"></div>
+<!-- ==========================HEADER SECTION=========================== -->
         <header id="home">
 		    <!-- creative menu -->
             <div class="container-fluid">
@@ -87,9 +85,8 @@
           </section>
 		  <!-- Header Image End -->
         </header>
-	<!-- ==========================HEADER SECTION END=========================== -->
-		
 
+<!-- ==========================HELLO=========================== -->
   <section class="intro text-center section-padding color-bg" id="hello">
     <div class="container">
   <!-- WELCOME TEXT -->
@@ -105,46 +102,71 @@
       </div>
     </div>
 
-    <div class="audio-player">
-      <div id="play-btn"></div>
-      <div class="audio-wrapper" id="player-container" href="javascript:;">
-        <audio id="player" ontimeupdate="initProgressBar()">
-          <source src="http://www.lukeduncan.co/oslo.mp3" type="audio/mp3">
-        </audio>
+<!-- Music -->
+<link href="assets/music/music.css" rel="stylesheet">
+<div class="media-controls">
+      <div class="media-buttons">
+            <button class="back-button media-button" label="back">
+                  <i class="fa-sharp fa-regular fa-circle-play"></i>
+                  <span class="button-text milli">Back</span>
+            </button>
+
+            <button class="rewind-button media-button" label="rewind">
+                  <i class="fas fa-backward button-icons"></i>
+                  <span class="button-text milli">Rewind</span>
+            </button>
+
+            <button class="play-button media-button" label="play">
+                  <i class="fas fa-play button-icons delta"></i>
+                  <span class="button-text milli">Play</span>
+            </button>
+
+            <button class="fast-forward-button media-button" label="fast forward">
+
+                  <i class="fas fa-forward button-icons"></i>
+                  <span class="button-text milli">Forward</span>
+            </button>
+
+            <button class="skip-button media-button" label="skip">
+                  <i class="fas fa-step-forward button-icons"></i>
+                  <span class="button-text milli">Skip</span>
+            </button>
       </div>
-      <div class="player-controls scrubber">
-        <p>Oslo <small>by</small> Holy Esque</p>
-        <span id="seekObjContainer">
-          <progress id="seekObj" value="0" max="1"></progress>
-        </span>
-        <br>
-        <small style="float: left; position: relative; left: 15px;" class="start-time"></small>
-        <small style="float: right; position: relative; right: 20px;" class="end-time"></small>
-    
+      <div class="media-progress">
+            <div class="progress-bar-wrapper progress">
+                  <div class="progress-bar">
+                  </div>
+            </div>
+            <div class="progress-time-current milli">
+                  15:23
+            </div>
+            <div class="progress-time-total milli">
+                  34:40
+            </div>
       </div>
-      <div class="album-image" style="background-image: url('https://artwork-cdn.7static.com/static/img/sleeveart/00/051/614/0005161476_350.jpg')"></div>
-    </div>
+</div>
+
+
+
+
 
 
   </section>
 
-
 <!-- ==========================SERVICE SECTION=========================== -->
- 
-
-<!-- About 2 -->
-			<div class="row">
-				<div class="col-md-6 about-text">
-					<h6>Professional Photography</h6><!-- Headline -->
-					<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.</p><br><!-- About Text 2 -->
-					<a href="index.html#team" class="weight-outline-btn">Read more</a>	<!-- read more button  -->				
-				</div>
-				<div class="col-md-6 nopadding features-intro-img">
-					<div class="about-image" style="background-image:url(img/d3.jpg)"></div><!-- about image 2 -->
-				</div>
-			</div>
-		<div class="container-fluid">
-		    <!-- About 1 -->
+           <!-- SERVICE 1 -->
+	  	<div class="row">
+	  			<div class="col-md-6 about-text">
+	  				<h6>asdfdfdf Photography</h6><!-- Headline -->
+	  				<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.</p><br><!-- About Text 2 -->
+	  				<a href="index.html#team" class="weight-outline-btn">Read more</a>	<!-- read more button  -->				
+	  			</div>
+	  			<div class="col-md-6 nopadding features-intro-img">
+	  				<div class="about-image" style="background-image:url(img/d3.jpg)"></div><!-- about image 2 -->
+	  			</div>
+	 		</div>
+      <!-- SERVICE 2 -->
+	  	<div class="container-fluid">
 			<div class="row color-bg">
 				<div class="col-md-6 nopadding features-intro-img">
 					<div class="about-image" style="background-image:url(img/d1.jpg)"></div><!-- about image 1 -->
@@ -155,8 +177,8 @@
 					<a href="index.html#team" class="weight-outline-btn">Read more</a><!-- read more button  -->			
 				</div>
 			</div>
-    </div> 
-			<!-- About 2 -->
+      </div> 
+			<!-- SERVICE 3 -->
 			<div class="row">
 				<div class="col-md-6 about-text">
 					<h6>Professional Photography</h6><!-- Headline -->
@@ -168,81 +190,15 @@
 				</div>
 			</div>
 
-    
-<!-- ==========================ABOUT SECTION END=========================== -->	
-
-
-
-	<!-- ==========================ABOUT SECTION=========================== -->
+	<!-- ==========================ABOUT=========================== -->
   <section class="intro text-center section-padding color-bg" id="about">
     <div class="container">
       <h1 class="arrow">A little <span>HERE</span> me</h1>
         <div class="col-6 col-md-4 wp1"><div class="about-image"><img src="img/aboutme.jpg" class="grayscale" alt="Blog Item"></div></div>
-        <div class="col-12 col-md-8 wp2"><p>ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricies nulla non metus pulvinar imperdiet. Praesent non adipiscing libero Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricies nulla non metus pulvinar imperdiet. Praesent non adipiscing libero Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricies nulla non metus pulvinar imperdiet. Praesent non adipiscing libero Lorem ipsum dolor sit amet, consectetur ascing libero</p></div>
+        <div class="col-12 col-md-8 wp2"><p>kyleipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricies nulla non metus pulvinar imperdiet. Praesent non adipiscing libero Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricies nulla non metus pulvinar imperdiet. Praesent non adipiscing libero Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricies nulla non metus pulvinar imperdiet. Praesent non adipiscing libero Lorem ipsum dolor sit amet, consectetur ascing libero</p></div>
      </div>
-  <div class="container">
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <!---------------------------------start-------->
-  <div class="wcontent">
-    <!-------------------------------------------------------talk-------->
-    <div class="talk-wrap">
-      <div class="wtalk">
-        <div class="wshare-icon material-icons"> <span class="material-icons-outlined">task_alt
-          </span>
-        </div>
-        <div class="wtitle">
-          <h1> This is the Title of talk... </h1>
-        </div>
-        <div class="wshare-icon material-icons"> <span class="material-icons-outlined">share
-          </span>
-        </div>
-        <div class="wtime">
-          <h1>( 4:23 ) </h1>
-        </div>
-        <a id="ppbutton3 music" class="ppbutton fa fa-play" data-src="https://www.ee.columbia.edu/~dpwe/sounds/instruments/flute-C6.wav"></a>
-      </div>
-    </div>
-    <!-------------------------------------------------------talk-------->
-    <div class="talk-wrap">
-      <div class="wtalk">
-        <div class="wshare-icon material-icons"> <span class="material-icons-outlined">task_alt
-          </span>
-        </div>
-        <div class="wtitle">
-          <h1> This is the Title of talk... </h1>
-        </div>
-        <div class="wshare-icon material-icons"> <span class="material-icons-outlined">share
-          </span>
-        </div>
-        <div class="wtime">
-          <h1>( 4:23 ) </h1>
-        </div>
-        <a id="ppbutton2" class="ppbutton fa fa-play" data-src="https://kolber.github.io/audiojs/demos/mp3/02-juicy-r.mp3"></a>
-      </div>
-    </div>
-    <!-------------------------------------------------------talk-------->
-    <div class="talk-wrap">
-      <div class="wtalk">
-        <div class="wshare-icon material-icons"> <span class="material-icons-outlined">task_alt
-          </span>
-        </div>
-        <div class="wtitle">
-          <h1> This is the Title of talk... </h1>
-        </div>
-        <div class="wshare-icon material-icons"> <span class="material-icons-outlined">share
-          </span>
-        </div>
-        <div class="wtime">
-          <h1>( 4:23 ) </h1>
-        </div>
-        <a id="ppbutton1" class="ppbutton fa fa-play" data-src="https://kolber.github.io/audiojs/demos/mp3/01-dead-wrong-intro.mp3"></a>
-      </div>
-    </div>
-    <!---------------------------------end-------->
-    </div>
-  </div>
+  
   </section>
-
 
 <!-- ==========================PORTFOLIO SECTION=========================== -->
 <section class="swag text-center" id="portfolio">
@@ -273,8 +229,6 @@
 </div><!--/.container-->
 <!-- ==========================PORTFOLIO SECTION END=========================== -->
 
-
-		
 		<!-- ==========================CONTACT SECTION=========================== -->
         <section class="text-center section-padding contact-wrap" id="contact">
 		  <!-- To Top Button -->
@@ -356,8 +310,6 @@
         </section>
 		<!-- ==========================CONTACT SECTION END=========================== -->
 		
-		
-		
 		<!-- ==========================FOOTER SECTION=========================== -->
         <footer>
           <div class="container">
@@ -369,8 +321,7 @@
           </div>
         </footer>
 		<!-- ==========================FOOTER SECTION END=========================== -->		
-		
-		
+	
     <!-- jQuery -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <!-- SmoothScroll -->           
