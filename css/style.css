@@ -21,9 +21,7 @@
 
 
 
-/* ==========================================================================
-	Global Styles
-========================================================================== */
+/* =======Global Styles========================================================================== */
 a {
 	color: #E04343;
 	-webkit-transition:all 0.5s;
@@ -587,6 +585,55 @@ h1.arrow {
 h1.arrow span {
     color: #E04343;
 }
+
+
+
+/* ===========================================================================hello========================================================================= */
+.hello-image {
+	height:400px;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+	background-size:cover;
+}
+.color-bg {
+	background: #E04343;
+}
+
+.color-bg a {
+    color: #FFE800;
+}
+.color-bg h6, .color-bg p {
+    color: white;
+}
+.color-bg h6::after{
+	border-color: #fff;
+}
+.color-bg .weight-outline-btn {
+    color: white;
+    border-color: white;
+}
+.color-bg .weight-outline-btn:hover {
+  background: #FFF;
+  color: #E04343;
+  border-color: rgba(0, 0, 0, 0);
+}
+.hello-text {
+	padding:20px 50px 25px 50px;
+}
+.hello-text h1 {
+	text-transform:uppercase;
+	font-size:24px;
+	color: #8C8C8C;
+}
+.color-bg h1.arrow span {
+    color: #FFE800;
+}
+.color-bg h1.arrow {
+    color: #FFF;
+}
+
+
 /* ==========================================================================About========================================================================== */
 .about-image {
 	height:400px;
