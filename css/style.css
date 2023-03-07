@@ -1,10 +1,4 @@
-/*========================================================================*/
-
-
-
-/* ///////////////////////////////////////////////////////////////////// 
-// 03 - Preloader
-/////////////////////////////////////////////////////////////////////*/
+/* //////////////////////////////////////////////// 03 - Preloader/////////////////////////////////////////////*/
 
 #preloader {
     position:fixed;
@@ -18,12 +12,7 @@
 }
 
 
-
-
-
-/* ==========================================================================
-	Global Styles
-========================================================================== */
+/* =============Global Styles========================================================================== */
 a {
 	color: #E04343;
 	-webkit-transition:all 0.5s;
@@ -71,6 +60,7 @@ h6::after {
 	margin-top: 20px;
 }
 /* ==========================================================================HTML5 display definitions========================================================================== */
+
 article,aside,details,figcaption,figure,footer,header,hgroup,nav,section,summary {
 	display:block;
 }
@@ -87,7 +77,9 @@ audio:not([controls]) {
 [hidden] {
 	display: none;
 }
+
 /* ==========================================================================Base========================================================================== */
+
 html {
 	font-size:100%;
 	-webkit-text-size-adjust:100%;
@@ -105,6 +97,7 @@ body {
 	font-family: 'Open Sans',sans-serif;
 }
 /* ==========================================================================Links========================================================================== */
+
 a:focus {
 	outline:thin dotted;
 }
@@ -112,6 +105,7 @@ a:active,a:hover {
 	outline: 0;
 }
 /* ==========================================================================Typography========================================================================== */
+
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:300,400);
 h1 {
 	font-size:2em;
@@ -196,6 +190,7 @@ p {
 	line-height: 28px!important;
 }
 /* ==========================================================================Lists========================================================================== */
+
 dl,menu,ol,ul {
 	margin:1em 0;
 }
@@ -210,6 +205,7 @@ nav ul,nav ol {
 	list-style-image: none;
 }
 /* ==========================================================================Embedded content========================================================================== */
+
 img {
 	border:0;
 	-ms-interpolation-mode:bicubic;
@@ -218,10 +214,12 @@ svg:not(:root) {
 	overflow: hidden;
 }
 /* ==========================================================================Figures========================================================================== */
+
 figure {
 	margin: 0;
 }
 /* ==========================================================================Forms========================================================================== */
+
 form {
 	margin:0;
 }
@@ -277,10 +275,12 @@ textarea {
 	vertical-align: top;
 }
 /* ==========================================================================Tables========================================================================== */
+
 table {
 	border-collapse:collapse;
 	border-spacing: 0;
 }
+
 /* ==========================================================================Section Styles========================================================================== */
 .section-padding {
 	padding:90px 0 100px
@@ -324,6 +324,7 @@ table {
 	padding-top: 138px;
 }
 /* ==========================================================================Navigation========================================================================== */
+
 .menu-wrap a {
 	color:#555d7c;
 	outline:none!important;
@@ -376,6 +377,7 @@ table {
 	opacity: 0.6;
 }
 /* Menu */
+
 .menu-wrap {
 	z-index:999;
 	background: rgba(255, 255, 255, 1);
@@ -452,6 +454,7 @@ table {
 	transition-delay: 0.5s;
 }
 /* ==========================================================================Hero========================================================================== */
+
 .hero {
 	background: url('../img/den.png') right bottom no-repeat;
 	background-size: contain;
@@ -554,11 +557,9 @@ table {
 	/* Safari and Chrome */-o-animation: arrowbounce 1s alternate infinite;
 	/* Opera */
 }
-/* ==========================================================================Intro========================================================================== */
-.intro p {
-	margin:50px;
-	
-}
+/* ==========================================================================music========================================================================== */
+
+
 h1.arrow {
 	font-size: 16px;
 	text-transform:uppercase;
@@ -571,6 +572,105 @@ h1.arrow {
 h1.arrow span {
     color: #E04343;
 }
+
+.music {
+ 
+}
+
+.music h1 {
+	color: white;
+    font-size: 40px;
+    text-transform:none;
+    font-weight: bond;
+    padding-bottom: 5px;
+}
+.music h3 {
+    	
+}
+
+.music h4 {
+    font-weight: 100;
+}
+
+.music h5 {
+    line-height: 0px;   
+    font-size: large;
+}
+
+.music-container {
+    display: flex;
+	flex-direction: row;
+	
+    
+    
+}
+
+.collection {
+    width: 60%;
+    text-align: left;
+    
+}
+.lead {
+    max-width: 600px;
+    font-weight: 400;
+    color: #15253a;
+    letter-spacing: 0.5px;
+    line-height: 1.2rem;
+}
+
+.musicbox {
+    margin-top: 1rem;
+}
+
+.musicbox ul li h3{
+    color: #15253a;
+    font-weight: 400;
+}
+
+.musicbox ul li h3{
+    color: #ffffff;
+    font-weight: 100;
+    font-size: 20px;
+    letter-spacing: 5px;
+    font-style: italic;
+    line-height: 3.5rem;
+}
+.hor {
+    margin: 1rem 0 1rem 0;
+    max-width: 500px;
+    background-color: #c7d8fc;
+}
+
+.playbox {
+    text-align: center;
+    border-radius: 12px;
+    background-color: #c7d8fc8c;
+	width: 30%;
+}
+
+nav {
+    display: block;
+    margin: 3rem auto;
+}
+ul li{
+    list-style: none;
+    display: inline; 
+}
+ul li a {
+    text-decoration: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    color: var(--white-color);
+    transition: all 300ms;
+}
+ul li a:hover {
+    background-color: #c7d8fc8c;
+}
+.controller {
+
+    
+}
+
 /* ==========================================================================About========================================================================== */
 .about-image {
 	height:400px;
