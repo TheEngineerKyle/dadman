@@ -10,8 +10,6 @@
     <title>Piano Man Dennis</title>
 	<!-- Bootstrap -->
     <link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-	<!-- Music -->
-    
 	<!-- Font-Awesome -->
     <link href="assets/font-awesome/css/font-awesome.min.css" rel="stylesheet">
 	<!-- Lightbox -->
@@ -34,6 +32,7 @@
     <![endif]-->
   </head>
     <body id="top">
+
 <!-- ****************************** Preloader ************************** -->
     <div id="preloader"></div>
 <!-- ==========================HEADER SECTION=========================== -->
@@ -90,69 +89,73 @@
 		  <!-- Header Image End -->
         </header>
 
+
 <!-- ==========================HELLO=========================== -->
-  <section id="hello"> 
-	<div class="collection">
-		<h1 class="heading">Playlist of Dennis</h1>
-		<p class="lead">Chill-out is a llistening.</p>
-		<hr class="hor">
-		<div id="musicbox" class="musicbox">
-			<h2>Chillhop</h2>
-		</div>
-	</div>
+<link href="assets/music/music.css" rel="stylesheet">
+
+  <section class="hello section-padding color-bg" id="hello">
 
 
-
-
-	<div class="playbox">
-		<h1 class="heading">Music Player</h1>
-    <nav>
-      <ul>
-        <li class="nav-link"><a href="./page/about.html">About & Credits</a></li>
-      </ul>
-    </nav>
-		<div class="controller">
-			<div id="circle-bg" class="circle">
-				<div id="circle-sm" class="circle2"><img id="cover" src="" class="fluid-img"></div>
+		<h1 class="arrow">A little <span>about</span> me</h1>
+			<p>kyleipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricies nulla non metus pulvinar imperdiet.
+				Praesent non adipiscing libero Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ultricies
+				nulla non metus pulvinar imperdiet. Praesent non adipiscing libero Lorem ipsum dolor sit amet,
+				consectetur adipiscing elit. Nunc ultricies nulla non metus pulvinar imperdiet. Praesent non adipiscing
+				libero Lorem ipsum dolor sit amet, consectetur ascing libero</p>
+			
+  <div class="container">
+			<div class="collection">
+					<h1 class="heading">Zen Lofi Chillhop</h1>
+					
+					<div id="musicbox" class="musicbox"></div>
 			</div>
-			<div class="songs">
-				<h2 id="song-name">Travel love Beats</h2>
-			    <div class="controls">
-				  	  <audio id="audio" src=""></audio>
-			  		  <img id="backward" class="media-btn" src="./assets/music/images/backward-button.png">
-			  		  <img id="play-stop" class="media-btn">
-			  		  <img id="forward" class="media-btn" src="./assets/music/images/fast-forward.png">
-			  	</div>
-		  	</div>
-	  	</div>
-	</div>
-</div>
+			
+				<div class="playbox">
+					
+					
+					<div class="controller">
+						<div id="circle-bg" class="circle">
+							<div id="circle-sm" class="circle2"><img id="cover" src="" class="fluid-img"></div>
+						</div>
+						<div class="songs">
+							<h2 id="song-name">Travel love Beats</h2>
+              <h4>Played by <br>Piano Man Dennis</h4>
+							<div class="controls">
+								<audio id="audio" src=""></audio>
+								<img id="backward" class="media-btn" src="./assets/music/images/backward-button.png">
+								<img id="play-stop" class="media-btn">
+								<img id="forward" class="media-btn" src="./assets/music/images/fast-forward.png">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
 </section>
 
 
 
 
+
 	
 	
-
-
 
 
 
 
 
 <!-- ==========================SERVICE SECTION=========================== -->
-           <!-- SERVICE 1 -->
-	  	<div class="row">
-	  			<div class="col-md-6 about-text">
-	  				<h6>asdfdfdf Photography</h6><!-- Headline -->
-	  				<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.</p><br><!-- About Text 2 -->
-	  				<a href="index.html#team" class="weight-outline-btn">Read more</a>	<!-- read more button  -->				
-	  			</div>
+<section class="features" id="service">
+      <!-- SERVICE 1 -->
+      <div class="row">
+	  		<div class="col-md-6 about-text">
+	  			<h6>asdfdfdf Photography</h6><!-- Headline -->
+	  			<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.</p><br><!-- About Text 2 -->
+	  			<a href="index.html#team" class="weight-outline-btn">Read more</a>	<!-- read more button  -->				
+	  		</div>
 	  			<div class="col-md-6 nopadding features-intro-img">
 	  				<div class="about-image" style="background-image:url(img/d3.jpg)"></div><!-- about image 2 -->
-	  			</div>
-	 		</div>
+	  		      </div>
+	 	</div>
       <!-- SERVICE 2 -->
 	  	<div class="container-fluid">
 			<div class="row color-bg">
@@ -165,20 +168,23 @@
 					<a href="index.html#team" class="weight-outline-btn">Read more</a><!-- read more button  -->			
 				</div>
 			</div>
-      </div> 
-			<!-- SERVICE 3 -->
-			<div class="row">
-				<div class="col-md-6 about-text">
-					<h6>Professional Photography</h6><!-- Headline -->
+            </div> 
+	<!-- SERVICE 3 -->
+		<div class="row">
+			<div class="col-md-6 about-text">
+      				<h6>Professional Photography</h6><!-- Headline -->
 					<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.</p><br><!-- About Text 2 -->
 					<a href="index.html#team" class="weight-outline-btn">Read more</a>	<!-- read more button  -->				
-				</div>
+			</div>
 				<div class="col-md-6 nopadding features-intro-img">
 					<div class="about-image" style="background-image:url(img/d2.jpg)"></div><!-- about image 2 -->
-				</div>
-			</div>
+                        </div>
+                              <div class="clearfix"></div>
+                        </div>
+</section>  
 
-	<!-- ==========================ABOUT=========================== -->
+
+<!-- ==========================ABOUT=========================== -->
   <section class="intro text-center section-padding color-bg" id="about">
     <div class="container">
       <h1 class="arrow">A little <span>HERE</span> me</h1>
@@ -188,7 +194,7 @@
   
   </section>
 
-<!-- ==========================PORTFOLIO SECTION=========================== -->
+<!-- ==========================PORTFOLIO=========================== -->
 <section class="swag text-center" id="portfolio">
   <div class="container">
 <!-- Headline -->
@@ -204,7 +210,7 @@
   <div class="row row-offset-0">
    
   <!-- PORTFOLIO ITEM 1 -->
-  <div class="col-md-6 col-sm-6">
+  <div class="col-md col-sm-6">
       <div class="overlay-effect effects clearfix">
           <div class="img">
               <a href="img/d5.png" data-lightbox="roadtrip" title="Project One - Lorem Ipsum"><img class="grayscale" src="img/d5.png" alt="Portfolio Item"></a>
@@ -215,88 +221,8 @@
 <!-- PORTFOLIO ITEM END -->
 </div><!--/row-->
 </div><!--/.container-->
-<!-- ==========================PORTFOLIO SECTION END=========================== -->
 
-		<!-- ==========================CONTACT SECTION=========================== -->
-        <section class="text-center section-padding contact-wrap" id="contact">
-		  <!-- To Top Button -->
-          <a href="index.html#top" class="up-btn"><i class="fa fa-chevron-up"></i></a>
-          <div class="container">
-		    <!-- Headline -->
-          
-            <div class="row contact-details">
-			  <!-- Adress Box -->
-              <div class="col-md-4">
-                <div class="dark-box box-hover">
-                  <h2><i class="fa fa-map-marker"></i><span>Address</span></h2>
-                  <p>Barneget, New Jersey</p>
-                </div>
-              </div>
-			  <!-- Phone Number Box -->
-              <div class="col-md-4">
-                <div class="dark-box box-hover">
-                  <h2><i class="fa fa-mobile"></i><span>Phone</span></h2>
-                  <p>+1(551)206-5451</p>
-                </div>
-              </div>
-			  <!-- E-Mail Box -->
-              <div class="col-md-4">
-                <div class="dark-box box-hover">
-                  <h2><i class="fa fa-email"></i><span>Email</span></h2>
-                  <p><a href="index.html#">me@pianomandennis.com</a></p>
-                </div>
-              </div>
-            </div>
-			<div class="row">
-			  <!-- Google Maps (Change your Settings below) -->
-			  <div class="col-md-6">
-			    <div id="googlemaps"></div>
-			  </div>
-			  <!-- Contact Form -->
-			  <div class="col-md-6 contact">
-			     <form role="form">
-				            <!-- Name -->
-                            <div class="row">
-                                <div class="col-md-6">
-								    <!-- E-Mail -->
-                                    <div class="form-group">
-                                        <input type="text" class="form-control" placeholder="Your name">
-                                    </div>
-                                </div>
-                                <div class="col-md-6">
-								    <!-- Phone Number -->
-                                    <div class="form-group">
-                                        <input type="email" class="form-control" placeholder="Email address">
-                                    </div>
-                                </div>
-                            </div>
-							<!-- Message Area -->
-                            <div class="form-group">
-                                <textarea class="form-control" placeholder="Write you message here..." style="height:232px;"></textarea>
-                            </div>
-							<!-- Subtmit Button -->
-                            <button type="submit" class="btn btn-send">
-                                Send message
-                            </button>
-                        </form>
-			  </div>
-			</div>
-			<br>
-			<!-- Social Buttons - use font-awesome, past in what you want -->
-            <div class="row">
-              <div class="col-md-12">
-                <ul class="social-buttons">
-                  <li><a href="index.html#" class="social-btn"><i class="fa fa-dribbble"></i></a></li><!-- dribble -->
-                  <li><a href="index.html#" class="social-btn"><i class="fa fa-twitter"></i></a></li><!-- twitter -->
-                  <li><a href="index.html#" class="social-btn"><i class="fa fa-facebook"></i></a></li><!-- facebook -->
-				  <li><a href="index.html#" class="social-btn"><i class="fa fa-deviantart"></i></a></li><!-- deviantart -->
-				  <li><a href="index.html#" class="social-btn"><i class="fa fa-youtube"></i></a></li><!-- youtube -->
-                </ul>
-              </div>
-            </div>
-          </div>
-        </section>
-		<!-- ==========================CONTACT SECTION END=========================== -->
+
 		
 		<!-- ==========================FOOTER SECTION=========================== -->
         <footer>
