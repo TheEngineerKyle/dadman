@@ -463,9 +463,9 @@ table {
 	font-size: 120px;
 	letter-spacing: -8px;
 	margin: 0;
-	font-weight: 600;
+	font-weight: 550;
 	line-height: 95px;
-	text-transform: uppercase;
+	text-transform: none;
 }
 .hero h1 span {
 	color:#a1a9b0;
@@ -557,8 +557,8 @@ table {
 /* ==========================================================================Intro========================================================================== */
 .intro p {
 	margin:50px 0 0;
-	padding-left: 250px;
-	padding-right: 250px;
+	margin-left: 250px;
+	margin-right: 250px;
 	
 }
 h1.arrow {
