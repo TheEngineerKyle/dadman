@@ -21,7 +21,9 @@
 
 
 
-/* =======Global Styles========================================================================== */
+/* ==========================================================================
+	Global Styles
+========================================================================== */
 a {
 	color: #E04343;
 	-webkit-transition:all 0.5s;
@@ -45,7 +47,7 @@ p {
 h2 {
 	font-size:15px;
 	color:#353535!important;
-	text-transform:none;
+	text-transform:uppercase;
 	font-weight:bold;
 }
 h2::after {
@@ -58,7 +60,7 @@ h2::after {
 h6 {
 	font-size:15px;
 	color:#8c8c8c;
-	text-transform:none;
+	text-transform:uppercase;
 	font-weight:bold;
 }
 h6::after {
@@ -281,7 +283,7 @@ table {
 }
 /* ==========================================================================Section Styles========================================================================== */
 .section-padding {
-	padding:90px 0 90px
+	padding:90px 0 100px
 }
 .dark-bg {
 	background:#f3f5f8;
@@ -402,7 +404,7 @@ table {
 }
 .icon-list a span {
 	display:block;
-	text-transform:none;
+	text-transform:uppercase;
 	letter-spacing:1px;
 	font-size:0.5em;
 	font-weight:700;
@@ -463,42 +465,25 @@ table {
 	margin: 0;
 	font-weight: 600;
 	line-height: 95px;
-	text-transform: none;
+	text-transform: uppercase;
 }
 .hero h1 span {
 	color:#a1a9b0;
 	/* display:inline-block; */
 }
-
-
-.hero h2 span {
+.hero h3 {
 	font-size: 20px;
 	margin:0;
 	padding:0;
 	opacity:0.5;
-	color: #6fe043;
+	color: #E04343;
 	letter-spacing: 18px;
 	line-height: 50px;
-	text-transform: none;
-}
-
-
-
-.hero h3 {
-	font-size: 30px;
-	margin:0;
-	padding:0;
-	opacity:0.5;
-	color: #E04343;
-	letter-spacing: 10px;
-	line-height: 35px;
-	font-weight: 200;
-	text-transform: none;
-	
+	text-transform: uppercase;
 }
 .hero p {
 	letter-spacing:1px;
-	color:#000000;
+	color:#fff;
 	font-size: 15px;
 }
 /* Boucing Arrow Animation */
@@ -572,6 +557,9 @@ table {
 /* ==========================================================================Intro========================================================================== */
 .intro p {
 	margin:50px 0 0;
+	padding-left: 250px;
+	padding-right: 250px;
+	
 }
 h1.arrow {
 	font-size: 16px;
@@ -581,18 +569,10 @@ h1.arrow {
 	background:url('../img/h1-bg.png') no-repeat center bottom;
 	padding-bottom:30px;
 	font-weight: bold;
-	text-align:center;
 }
 h1.arrow span {
     color: #E04343;
 }
-
-
-
-
-
-
-
 /* ==========================================================================About========================================================================== */
 .about-image {
 	height:400px;
@@ -637,12 +617,6 @@ h1.arrow span {
 .color-bg h1.arrow {
     color: #FFF;
 }
-
-
-
-
-
-
 /* ==========================================================================Services========================================================================== */
 .services {
 	margin-top:80px;
@@ -904,10 +878,10 @@ img.grayscale:hover {
 }
 .outline-btn {
 	display:inline-block;
-	padding:10px 10px;
+	padding:25px 40px;
 	color: #FFE801;
 	border: solid 1px #FFE801;
-	text-transform:none;
+	text-transform:uppercase;
 	font-weight:bold;
 	letter-spacing:1px;
 }
