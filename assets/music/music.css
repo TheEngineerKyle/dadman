@@ -1,4 +1,4 @@
-.music {
+.intro {
  
     padding-top: 0;
     padding-bottom: 75px;
@@ -7,7 +7,7 @@
 
 
 
-.music h1 {
+.intro h1 {
 	color: white;
     font-size: 40px;
     text-transform:none;
@@ -16,21 +16,21 @@
 }
 
 
-.music h3 {
+.intro h3 {
     	
 }
 
-.music h4 {
+.intro h4 {
     font-weight: 100;
 }
 
-.music h5 {
+.intro h5 {
     line-height: 0px;   
     font-size: large;
 }
 
 
-#music .container {
+#intro .container {
     display: flex;
     justify-content: flex-start;
    
@@ -172,7 +172,7 @@ ul li a:hover {
     }
 }
 @media (max-width: 900px) {
-    #music .container {
+    #intro .container {
         display: flex;
         justify-content: space-between;
         align-items: flex-start;
