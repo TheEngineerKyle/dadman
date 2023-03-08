@@ -67,7 +67,7 @@
     }
 }
 @media (max-width: 900px) {
-    #music.container {
+    .music.container {
         display: flex;
         justify-content: space-between;
         align-items: flex-start;
