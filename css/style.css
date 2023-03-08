@@ -324,7 +324,7 @@ table {
 
 .custom-navbar {
   margin-bottom: 0;
-  background-color: #4dc4b8;
+  background-color: #3c3c3c;
   padding: 20px 0;
 }
 
@@ -335,7 +335,7 @@ table {
 }
 
 .custom-navbar .nav li a {
-  font-size: 14px;
+  font-size: 16px;
   font-weight: normal;
   color: #ffffff;
   letter-spacing: 0.5px;
@@ -343,7 +343,7 @@ table {
   transition: all ease-in-out 0.4s;
   padding: 0;
   margin: 15px 20px;
-  text-transform: uppercase;
+  
 }
 
 .custom-navbar .navbar-nav > li > a:hover,
@@ -401,11 +401,11 @@ table {
 /* ==========================================================================Hero========================================================================== */
 
 .hero {
-	background: url('../img/den.png') right bottom no-repeat;
+	background: url('../img/d4.jpg') right bottom no-repeat;
 	background-size: contain;
 	padding:110px 0 100px 0;
 	height:auto;
-	background-color: #FBFBFB;
+	background-color: #ced2d3;
 }
 .hero h1 {
 	font-size: 120px;
@@ -414,6 +414,7 @@ table {
 	font-weight: 550;
 	line-height: 95px;
 	text-transform: none;
+	
 }
 .hero h1 span {
 	color:#a1a9b0;
