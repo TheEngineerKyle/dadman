@@ -506,12 +506,14 @@ table {
 
 .music-container {
     display: flex;
+    justify-content: space-between;
     align-items: flex-start;
     flex-direction: row;
 }
 
   
 .music-container>.playbox {
+    flex: 1;
     margin: 0.5rem auto;
     text-align: center;
     border-radius: 12px;
@@ -620,6 +622,9 @@ ul li a {
 ul li a:hover {
     background-color: #c7d8fc8c;
 }
+
+
+
 
 
 
