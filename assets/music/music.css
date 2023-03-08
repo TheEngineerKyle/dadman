@@ -85,8 +85,8 @@
 }
 .card-body {
     width: 100%;
-    max-width: 100px;
-    min-height: 200vh;
+    max-width: 550px;
+    min-height: 100vh;
     background-color: #c7d8fc8c;
     margin: 1rem auto;
     border-radius: 8px;
@@ -98,4 +98,7 @@
 }
 .card-body .about{
     padding: 1rem;
+}
+.about .center {
+    text-align: center;
 }

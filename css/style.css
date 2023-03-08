@@ -559,6 +559,36 @@ table {
 }
 /* ==========================================================================music========================================================================== */
 
+.music-container {
+display: flex;
+
+}
+  
+.music-container>.playbox {
+    width: 20%;
+	text-align: center;
+   	border-radius: 12px;
+	background-color: #c7d8fc8c;
+	margin: 1rem;
+	
+	
+	
+ }
+
+.music-container>.collection {
+    width: 60%;
+    text-align: center;
+	padding: 4em;
+	margin: 1rem;
+}
+
+.controller {
+    margin: 2rem auto;
+    max width: 100%;
+    min-height: 500px;
+}
+
+
 
 h1.arrow {
 	font-size: 16px;
@@ -573,13 +603,10 @@ h1.arrow span {
     color: #E04343;
 }
 
-.music {
- 
-}
 
 .music h1 {
 	color: white;
-    font-size: 40px;
+    font-size: 30px;
     text-transform:none;
     font-weight: bond;
     padding-bottom: 5px;
@@ -597,19 +624,8 @@ h1.arrow span {
     font-size: large;
 }
 
-.music-container {
-    display: flex;
-	flex-direction: row;
-	
-    
-    
-}
 
-.collection {
-    width: 60%;
-    text-align: left;
-    
-}
+
 .lead {
     max-width: 600px;
     font-weight: 400;
@@ -619,7 +635,8 @@ h1.arrow span {
 }
 
 .musicbox {
-    margin-top: 1rem;
+    margin: 1rem;
+	align-content: baseline;
 }
 
 .musicbox ul li h3{
@@ -641,12 +658,7 @@ h1.arrow span {
     background-color: #c7d8fc;
 }
 
-.playbox {
-    text-align: center;
-    border-radius: 12px;
-    background-color: #c7d8fc8c;
-	width: 30%;
-}
+
 
 nav {
     display: block;
@@ -666,10 +678,8 @@ ul li a {
 ul li a:hover {
     background-color: #c7d8fc8c;
 }
-.controller {
 
-    
-}
+
 
 /* ==========================================================================About========================================================================== */
 .about-image {
