@@ -331,7 +331,7 @@ table {
 .custom-navbar .navbar-brand {
   color: #ffffff;
   font-weight: normal;
-  font-size: 25px;
+  font-size: 30px;
 }
 
 .custom-navbar .nav li a {
@@ -381,7 +381,7 @@ table {
 }
 
 .custom-navbar .navbar-toggle {
-  background-color: transparent;
+  background-color: white;
 }
 
 .custom-navbar .navbar-toggle .icon-bar {
@@ -394,7 +394,7 @@ table {
     background: 0 0; 
   }
   .custom-navbar.top-nav-collapse {
-    background: #00000083;
+    background: #0f0f0fdc;
     padding: 15px 0;
   }
 }
@@ -505,31 +505,29 @@ table {
 /* ==========================================================================music========================================================================== */
 
 .music-container {
-display: flex;
-
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
 }
+
   
 .music-container>.playbox {
-    width: 20%;
-	text-align: center;
-   	border-radius: 12px;
-	background-color: #c7d8fc8c;
-	margin: 1rem;
-	
-	
-	
+    margin: 0.5rem auto;
+    text-align: center;
+    border-radius: 12px;
+    background-color: #c7d8fc8c;
  }
 
 .music-container>.collection {
-    width: 60%;
-    text-align: center;
-	padding: 4em;
-	margin: 1rem;
+    width: 50%;
+    flex: 1;
+    margin-top: 1.5rem;
 }
 
 .controller {
-    margin: 2rem auto;
-    max width: 100%;
+    margin: 2.5rem auto;
+    width: 100%;
+    max-width: 400px;
     min-height: 500px;
 }
 
@@ -580,8 +578,7 @@ h1.arrow span {
 }
 
 .musicbox {
-    margin: 1rem;
-	align-content: baseline;
+    margin-top: 1rem;
 }
 
 .musicbox ul li h3{
