@@ -25,7 +25,7 @@
         // PARALLAX JS
         function initParallax() {
           $('#kyle').parallax("60%", 100);
-          $('#about').parallax("100%", 80);
+          $('#music').parallax("100%", 80);
           $('#project').parallax("80%", 60);
           $('#team').parallax("40%", 40);
           $('#contact').parallax("20%", 20);
