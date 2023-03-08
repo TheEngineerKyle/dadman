@@ -194,7 +194,7 @@ p {
 dl,menu,ol,ul {
 	margin:1em 0;
 }
-dd {
+dd {parallax
 	margin:0 0 0 40px;
 }
 menu,ol,ul {
@@ -401,9 +401,10 @@ table {
 /* ==========================================================================Hero========================================================================== */
 
 .hero {
-	background: url('../img/d4.jpg') right bottom no-repeat;
+	background: url('../img/hero.png') right bottom no-repeat;
 	background-size: contain;
 	padding:110px 0 100px 0;
+	
 	height:auto;
 	background-color: #ced2d3;
 }
@@ -648,7 +649,7 @@ ul li a:hover {
 	background-size:cover;
 }
 .color-bg {
-	background: #0a425cdd;
+	background: #0e5474;
 }
 
 
