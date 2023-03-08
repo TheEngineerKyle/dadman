@@ -511,8 +511,8 @@ table {
 	gap: 10%;
     align-items: flex-start;
     flex-direction: row;
-	padding-right: 5rem;
-	padding-left: 5rem;
+	padding-right: 1rem;
+	padding-left: 1rem;
 	margin-right: 1rem;
 	margin-left: 1rem;
 
@@ -521,7 +521,7 @@ table {
   
 .music-container>.playbox {
     flex: 1;
-    margin: 0.5rem auto;
+    margin: 0.5rem;
     text-align: center;
     border-radius: 12px;
     background-color: #c7d8fc8c;
