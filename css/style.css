@@ -509,6 +509,12 @@ table {
     justify-content: space-between;
     align-items: flex-start;
     flex-direction: row;
+	padding-right: 5rem;
+	padding-left: 5rem;
+	margin-right: 1rem;
+	margin-left: 1rem;
+	flex-wrap: wrap;
+
 }
 
   
@@ -518,6 +524,7 @@ table {
     text-align: center;
     border-radius: 12px;
     background-color: #c7d8fc8c;
+	max-width: 450px;
  }
 
 .music-container>.collection {
@@ -531,6 +538,7 @@ table {
     width: 100%;
     max-width: 400px;
     min-height: 500px;
+	min-width: 250px;
 }
 
 
