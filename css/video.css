@@ -13,15 +13,6 @@
   padding-top: 10em;
 }
 
-#kyle h1 {
-  color: #ffffff;
-  font-size: 6em;
-  line-height: 1.2em;
-}
-
-#kyle p {
-  color: rgba(250, 250, 250, 0.7);
-}
 
 #kyle .overlay {
   position: absolute;

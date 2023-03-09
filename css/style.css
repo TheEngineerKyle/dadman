@@ -14,12 +14,11 @@
 
 /* =============Global Styles========================================================================== */
 a {
-	color: #E04343;
+	color: #847577;
 	-webkit-transition:all 0.5s;
 	-moz-transition:all 0.5s;
 	-o-transition:all 0.5s;
 	transition:all 0.5s;
-	
 	outline:none!important;
 }
 a:hover,a:focus,a:active {
@@ -28,7 +27,7 @@ a:hover,a:focus,a:active {
 	outline:none!important;
 }
 p {
-	color:#8c9398;
+	color:#000000;
 	word-spacing:1px;
 	line-height:25px;
 	font-size:14px;
@@ -59,6 +58,12 @@ h6::after {
 	width:65px;
 	margin-top: 20px;
 }
+
+.color-bg {
+	background: #4E6E81;
+}
+
+
 /* ==========================================================================HTML5 display definitions========================================================================== */
 
 article,aside,details,figcaption,figure,footer,header,hgroup,nav,section,summary {
@@ -233,7 +238,7 @@ legend {
 }
 button,input,select,textarea {
 	font-size:100%;
-	/margin:0;
+	margin:0;
 	vertical-align:baseline;
 	*vertical-align:middle;
 }
@@ -271,16 +276,16 @@ textarea {
 	overflow:auto;
 	vertical-align: top;
 }
-/* ==========================================================================Tables========================================================================== */
+/* ===============Tables========================================================================== */
 
 table {
 	border-collapse:collapse;
 	border-spacing: 0;
 }
 
-/* ==========================================================================Section Styles========================================================================== */
+/* ===================Section Styles========================================================================== */
 .section-padding {
-	padding:90px 0 100px
+	padding:90px 0 100px 0;
 }
 .dark-bg {
 	background:#f3f5f8;
@@ -320,7 +325,7 @@ table {
 .inner {
 	padding-top: 138px;
 }
-/* ==========================================================================Navigation========================================================================== */
+/* ==============================Navigation========================================================================== */
 
 .custom-navbar {
   margin-bottom: 0;
@@ -329,7 +334,7 @@ table {
 }
 
 .custom-navbar .navbar-brand {
-  color: #ffffff;
+  color: #2E3840;
   font-weight: normal;
   font-size: 25px;
 }
@@ -337,7 +342,7 @@ table {
 .custom-navbar .nav li a {
   font-size: 16px;
   font-weight: normal;
-  color: #ffffff;
+  color: #2E3840;
   letter-spacing: 0.5px;
   -webkit-transition: all ease-in-out 0.4s;
   transition: all ease-in-out 0.4s;
@@ -393,22 +398,23 @@ table {
   .custom-navbar {
     background: 0 0; 
   }
+
+/* background color */
   .custom-navbar.top-nav-collapse {
-    background: #0f0f0fe8;
+    background: #f9dbbbd1;
     padding: 15px 0;
   }
 }
-/* ==========================================================================Hero========================================================================== */
+/* ======================================================================HOME========================================================================== */
 
-.hero {
+.home {
 	background: url('../img/hero.png') right bottom no-repeat;
 	background-size: contain;
 	padding:110px 0 100px 0;
-	
 	height:auto;
 	background-color: #ced2d3;
 }
-.hero h1 {
+.home h1 {
 	font-size: 120px;
 	letter-spacing: -8px;
 	margin: 0;
@@ -417,11 +423,11 @@ table {
 	text-transform: none;
 	
 }
-.hero h1 span {
+.home h1 span {
 	color:#a1a9b0;
 	/* display:inline-block; */
 }
-.hero h3 {
+.home h3 {
 	font-size: 20px;
 	margin:0;
 	padding:0;
@@ -431,7 +437,7 @@ table {
 	line-height: 50px;
 	text-transform: uppercase;
 }
-.hero p {
+.home p {
 	letter-spacing:1px;
 	color:#fff;
 	font-size: 15px;
@@ -504,9 +510,9 @@ table {
 	/* Safari and Chrome */-o-animation: arrowbounce 1s alternate infinite;
 	/* Opera */
 }
-/* ==========================================================================music========================================================================== */
+/* ==========================================================================aboutme========================================================================== */
 
-.music-container {
+.aboutme-container {
     display: flex;
 	flex-wrap: wrap;
     justify-content: space-between;
@@ -521,7 +527,7 @@ table {
 }
 
   
-.music-container>.playbox {
+.aboutme-container>.playbox {
     flex: 1;
     margin: 0.5rem;
     text-align: center;
@@ -530,7 +536,7 @@ table {
 	max-width: 350px;
  }
 
-.music-container>.collection {
+.aboutme-container>.collection {
     width: 50%;
     flex: 1;
 	margin: 0.5rem;
@@ -563,22 +569,20 @@ h1.arrow span {
 }
 
 
-.music h1 {
+.aboutme h1 {
 	color: white;
     font-size: 30px;
     text-transform:none;
     font-weight: bond;
     padding-bottom: 5px;
 }
-.music h3 {
-    	
-}
 
-.music h4 {
+
+.aboutme h4 {
     font-weight: 100;
 }
 
-.music h5 {
+.aboutme h5 {
     line-height: 0px;   
     font-size: large;
 }
@@ -618,8 +622,6 @@ h1.arrow span {
 
 
 
-
-
 ul li{
     list-style: none;
     display: inline; 
@@ -636,27 +638,116 @@ ul li a:hover {
 }
 
 
+.circle {
+    width: 250px;
+    height: 250px;
+    background-color: #222427;
+    border-radius: 50%;
+    margin: 2rem auto;
+    display: flex;
+    border: 3px solid #37b0d8;
+    border-top: 3px solid #0254ec;
+   
+}
+.circle2 {
+    width: 180px;
+    height: 180px;
+    background-color: #252629;
+    border-radius: 50%;
+    border: 3px solid #282529;
+    border-top: 3px solid #66bfe9;
+    align-self: center;
+    display: flex;
+    margin: auto;
+    
+}
+.circle2 .fluid-img{
+    width: 100%;
+    max-width: 160px;
+    height: auto;
+    border-radius: 50%;
+    align-self: center;
+    margin: auto;
+}
+#song-name{
+    color: #15253a;
+    font-weight: 100;
+    text-transform: none;
+    font-style: italic;
+}
+.circle.animate {
+    animation: anticlock 6s infinite linear;
+}
+.circle2.animate {
+    animation: clockwise 6s infinite linear;
+}
+.media-btn {
+    width: 100%;
+    max-width: 50px;
+    height: auto;
+    margin: auto;
+    cursor: pointer;
+    margin: 1rem;
+}
+@keyframes anticlock {
+    from {
+        transform: rotate(360deg);
+    } to {
+        transform: rotate(0deg);
+    }
+}
+@keyframes clockwise {
+    from {
+        transform: rotate(0deg);
+    } to {
+        transform: rotate(360deg);
+    }
+}
+@media (max-width: 900px) {
+    .aboutme.container {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        flex-direction: column-reverse;
+    }
+    .collection {
+        width: 90%;
+        flex: 1;
+        margin: 1.5rem auto;
+    }
+    .playbox {
+        flex: 1;
+        width: 90%;
+    }
+}
+.card-body {
+    width: 100%;
+    max-width: 550px;
+    min-height: 100vh;
+    background-color: #c7d8fc8c;
+    margin: 1rem auto;
+    border-radius: 8px;
+}
+.card-body nav{
+    margin: 0;
+    padding-top: 2rem;
+    text-align: center;
+}
 
 
-
-
-/* ==========================================================================About========================================================================== */
-.about-image {
+/* =======SERVICE========================================================================= */
+.service-image {
 	height:400px;
 	-webkit-background-size:cover;
 	-moz-background-size:cover;
 	-o-background-size:cover;
 	background-size:cover;
 }
-.color-bg {
-	background: #0e5474;
-}
 
 
-.maincolor {
+.servicecolor {
 	background: #ffffff;
 }
-
 
 
 .color-bg a {
@@ -677,10 +768,10 @@ ul li a:hover {
   color: #E04343;
   border-color: rgba(0, 0, 0, 0);
 }
-.about-text {
-	padding:20px 50px 25px 50px;
+.service-text {
+	padding:25px 50px 25px 50px;
 }
-.about-text h1 {
+.service-text h1 {
 	text-transform:uppercase;
 	font-size:24px;
 	color: #8C8C8C;
@@ -691,12 +782,13 @@ ul li a:hover {
 .color-bg h1.arrow {
     color: #FFF;
 }
-/* ==========================================================================Services========================================================================== */
-.services {
+
+
+.service {
 	margin-top:80px;
 	margin-bottom:40px;
 }
-.services .icon {
+.service .icon {
 	position:relative;
 	width:175px;
 	height:175px;
@@ -713,15 +805,15 @@ ul li a:hover {
 	border: 1px solid #E04343;
 	color: #E04343;
 }
-.services .item:hover .icon {
+.service .item:hover .icon {
 	background: #E04343;
 	border: 1px solid #E04343;
 }
-.services .item [class*=fa] {
+.service .item [class*=fa] {
 	-webkit-transition:all .3s ease-out;
 	transition:all .3s ease-out;
 }
-.services .item:hover [class*=fa] {
+.service .item:hover [class*=fa] {
 	-webkit-transform:scale(1.2);
 	transform:scale(1.2);
 	-webkit-transition:all .3s ease-out;
@@ -901,115 +993,7 @@ img.grayscale:hover {
 	margin-right:auto;
 	top: 50px;
 }
-/* ==========================================================================Subscribe========================================================================== */
-.subscribe {
-	padding-top:75px;
-}
-.subscribe h1 {
-	color: #FFFFFF;
-	margin-bottom:40px;
-}
-.subscribe h1 span {
-	display:block;
-	font-size:15px;
-	text-transform:uppercase;
-	font-weight:bold;
-	margin-top:20px;
-	letter-spacing:1px;
-}
-.subscribe input[type=text] {
-	background-color:rgba(255,255,255,0.1);
-	border: solid 1px #FFE800;
-	padding:20px;
-	width:30%;
-	color:#808080;
-}
 
-.subscribe input[type=text]:focus {
-    outline: none;
-}
-.subscribe input[type=submit] {
-	background: #FFE800;
-	border: solid 1px #FFE800;
-	padding:20px;
-	color: #E04343;
-	text-transform:uppercase;
-	letter-spacing:1px;
-	transition:all 0.5s ease;
-	-moz-transition:all 0.5s ease;
-	-webkit-transition:all 0.5s ease;
-	-o-transition:all 0.5s ease;
-}
-.subscribe input[type=submit]:hover {
-	background: rgba(255, 232, 0, 0.9);
-	border: solid 1px #FFE800;
-	color: #E04343;
-}
-/* ==========================================================================CTA========================================================================== */
-.spacer-cta {
-	background-color: #E04343;
-	padding:70px 0;
-}
-.outline-btn {
-	display:inline-block;
-	padding:25px 40px;
-	color: #FFE801;
-	border: solid 1px #FFE801;
-	text-transform:uppercase;
-	font-weight:bold;
-	letter-spacing:1px;
-}
-.outline-btn:hover,.outline-btn:focus {
-	color: #E04343;
-	border: solid 1px #E04343;
-	background: #FFE801;
-}
-.weight-outline-btn {
-	display:inline-block;
-	padding:20px 30px;
-	color:#8C8C8C;
-	border:solid 1px #8C8C8C;
-	text-transform:uppercase;
-	font-weight:bold;
-	letter-spacing:1px;
-}
-.weight-outline-btn:hover,.outline-btn:focus {
-	color:#424242;
-	border: solid 1px #424242;
-}
-/* ==========================================================================Team========================================================================== */
-.team img {
-	margin-bottom:20px;
-}
-ul.social-buttons {
-	list-style:none;
-	margin:0;
-	padding:0;
-}
-ul.social-buttons li {
-	display:inline-block;
-	margin-right:10px;
-}
-ul.social-buttons li:last-child {
-	margin-right:0;
-}
-.social-btn {
-	width:40px;
-	height:40px;
-	background: #E04343;
-	display:inline-block;
-	color:#fff;
-	font-size:17px;
-	line-height:40px;
-	text-align:center;
-}
-.social-btn:hover,.social-btn:focus {
-	background: rgba(255, 232, 0, 1);
-	color: #E04343;
-}
-.social {
-	margin-top: 25px
-}
 /* ==========================================================================Contact========================================================================== */
 .up-btn {
 	width:55px;
@@ -1192,7 +1176,7 @@ ul.slides li {
 		padding: 95px 0px 0px 0px;
 	}
 
-	.hero h1 {
+	.home h1 {
 		font-size: 100px;
 		line-height: 80px;
 		margin-top: 65px;
@@ -1269,12 +1253,12 @@ ul.slides li {
     text-align: center;
 	}
 
-	.hero h3 {
+	.home h3 {
 	    letter-spacing: 10px;
 	}
 
 
-	.hero {
+	.home {
 	    padding-bottom: 0;
 	}
 
@@ -1305,7 +1289,7 @@ ul.slides li {
 
 
 @media screen and (max-width:991px) {
-	.hero {
+	.home {
     	padding: 0px;
 	}
 
