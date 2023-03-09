@@ -284,6 +284,14 @@ table {
 }
 
 /* ===================Section Styles========================================================================== */
+.center {
+  margin: auto;
+  width: 50%;
+  border: 3px solid green;
+  padding: 10px;
+}
+
+
 .section-padding {
 	padding:90px 0 100px 0;
 }
