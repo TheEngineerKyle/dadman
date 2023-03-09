@@ -46,9 +46,9 @@ h2::after {
 	margin:20px auto;
 }
 h6 {
-	font-size:15px;
-	color:#8c8c8c;
-	text-transform:uppercase;
+	font-size:20px;
+	color:#ffffff;
+	text-transform:none;
 	font-weight:bold;
 }
 h6::after {
@@ -59,12 +59,9 @@ h6::after {
 	margin-top: 20px;
 }
 
-.color-bg {
-	background: #4E6E81;
-}
 
 
-/* ==========================================================================HTML5 display definitions========================================================================== */
+/* ==================HTML5 display definitions========================================================================== */
 
 article,aside,details,figcaption,figure,footer,header,hgroup,nav,section,summary {
 	display:block;
@@ -83,7 +80,7 @@ audio:not([controls]) {
 	display: none;
 }
 
-/* ==========================================================================Base========================================================================== */
+/* =================Base========================================================================== */
 
 html {
 	font-size:100%;
@@ -101,7 +98,7 @@ body {
 	margin:0;
 	font-family: 'Open Sans',sans-serif;
 }
-/* ==========================================================================Links========================================================================== */
+/* ==================Links========================================================================== */
 
 a:focus {
 	outline:thin dotted;
@@ -109,9 +106,12 @@ a:focus {
 a:active,a:hover {
 	outline: 0;
 }
-/* ==========================================================================Typography========================================================================== */
+/* ==========================Typography========================================================================== */
 
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:300,400);
+
+
+/* ===========
 h1 {
 	font-size:2em;
 	margin:0.67em 0;
@@ -137,6 +137,11 @@ h6 {
 	font-size: 12px;
 	margin:2.33em 0;
 }
+ ============ */
+
+
+
+
 abbr[title] {
 	border-bottom:1px dotted;
 }
@@ -284,13 +289,6 @@ table {
 }
 
 /* ===================Section Styles========================================================================== */
-.center {
-  margin: auto;
-  width: 50%;
-  border: 3px solid green;
-  padding: 10px;
-}
-
 
 .section-padding {
 	padding:90px 0 100px 0;
@@ -409,11 +407,11 @@ table {
 
 /* background color */
   .custom-navbar.top-nav-collapse {
-    background: #f9dbbbd1;
+    background: #66857e;
     padding: 15px 0;
   }
 }
-/* ======================================================================HOME========================================================================== */
+/* ========================HOME========================================================================== */
 
 .home {
 	background: url('../img/hero.png') right bottom no-repeat;
@@ -518,7 +516,32 @@ table {
 	/* Safari and Chrome */-o-animation: arrowbounce 1s alternate infinite;
 	/* Opera */
 }
-/* ==========================================================================aboutme========================================================================== */
+/* ====================ABOUTME========================================================================== */
+
+.aboutme {
+	background: #4e6e81d1;
+}
+
+.aboutme a {
+    color: #FFE800;
+}
+
+.aboutme h1 {
+    color: #ffffff;
+	font-size: 50px;
+	font-weight: 400;
+}
+
+.aboutme p {
+    color: rgb(255, 255, 255);
+	font-size: 25px;
+	padding: 4rem;
+	
+}
+
+.aboutme h6::after{
+	border-color: #fff;
+}
 
 .aboutme-container {
     display: flex;
@@ -531,7 +554,6 @@ table {
 	padding-left: 1rem;
 	margin-right: 1rem;
 	margin-left: 1rem;
-
 }
 
   
@@ -559,40 +581,6 @@ table {
     max-width: 400px;
     min-height: 500px;
 	min-width: 250px;
-}
-
-
-
-h1.arrow {
-	font-size: 16px;
-	text-transform:uppercase;
-	color:#353535;
-	letter-spacing: 4px;
-	background:url('../img/h1-bg.png') no-repeat center bottom;
-	padding-bottom:30px;
-	font-weight: bold;
-}
-h1.arrow span {
-    color: #E04343;
-}
-
-
-.aboutme h1 {
-	color: white;
-    font-size: 30px;
-    text-transform:none;
-    font-weight: bond;
-    padding-bottom: 5px;
-}
-
-
-.aboutme h4 {
-    font-weight: 100;
-}
-
-.aboutme h5 {
-    line-height: 0px;   
-    font-size: large;
 }
 
 
@@ -750,45 +738,23 @@ ul li a:hover {
 	-moz-background-size:cover;
 	-o-background-size:cover;
 	background-size:cover;
+	border-radius: 3px;
 }
 
 
 .servicecolor {
-	background: #ffffff;
+	background: #616161;
 }
 
 
-.color-bg a {
-    color: #FFE800;
-}
-.color-bg h6, .color-bg p {
-    color: white;
-}
-.color-bg h6::after{
-	border-color: #fff;
-}
-.color-bg .weight-outline-btn {
-    color: white;
-    border-color: white;
-}
-.color-bg .weight-outline-btn:hover {
-  background: #FFF;
-  color: #E04343;
-  border-color: rgba(0, 0, 0, 0);
-}
 .service-text {
-	padding:25px 50px 25px 50px;
+	padding:50px 50px 35px 50px;
 }
-.service-text h1 {
+.service-text p {
 	text-transform:uppercase;
-	font-size:24px;
-	color: #8C8C8C;
-}
-.color-bg h1.arrow span {
-    color: #FFE800;
-}
-.color-bg h1.arrow {
-    color: #FFF;
+	font-size:16px;
+	color: #e4e4e4;
+	font-weight:500;
 }
 
 
@@ -867,7 +833,7 @@ i.respons {
 .responsive-services {
 	position: relative;
 }
-/* ==========================================================================Portfolio========================================================================== */
+/* =====================Portfolio========================================================================== */
 .swag {
 	padding:75px 0;
 }
@@ -1148,15 +1114,6 @@ ul.slides li {
     border-color: #E04343;
 }
 
-.color-bg .flex-control-paging li a{
-    background: white;
-    border-color: white;
-}
-
-.color-bg .flex-control-paging li a.flex-active {
-    background: #FFE800;
-    border-color: #FFE800;
-}
 /* ==========================================================================Waypoints========================================================================== */
 .wp1,.wp2,.wp3,.wp4,.wp5,.wp6 {
 	visibility:hidden;
@@ -1247,9 +1204,6 @@ ul.slides li {
 		font-size:1em;
 	}
 }
-
-
-
 
 
 
