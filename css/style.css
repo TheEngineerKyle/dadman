@@ -49,7 +49,6 @@ h6 {
 	font-size:20px;
 	color:#ffffff;
 	text-transform:none;
-	font-weight:bold;
 }
 h6::after {
 	content:" ";
@@ -407,7 +406,7 @@ table {
 
 /* background color */
   .custom-navbar.top-nav-collapse {
-    background: #66857e;
+    background: #5b5b66a0;
     padding: 15px 0;
   }
 }
@@ -532,12 +531,6 @@ table {
 	font-weight: 400;
 }
 
-.aboutme p {
-    color: rgb(255, 255, 255);
-	font-size: 25px;
-	padding: 4rem;
-	
-}
 
 .aboutme h6::after{
 	border-color: #fff;
@@ -733,29 +726,26 @@ ul li a:hover {
 
 /* =======SERVICE========================================================================= */
 .service-image {
-	height:400px;
-	-webkit-background-size:cover;
-	-moz-background-size:cover;
-	-o-background-size:cover;
-	background-size:cover;
-	border-radius: 3px;
+	height:550px;
+	-webkit-background-size:contain;
+	-moz-background-size:contain;
+	-o-background-size:contain;
+	background-size:contain;
+	background-size: contain;
+	background-repeat: no-repeat;
+	
 }
 
 
 .servicecolor {
-	background: #616161;
+	background: #5B5B66;
 }
 
 
 .service-text {
-	padding:50px 50px 35px 50px;
+	padding: 50px;;
 }
-.service-text p {
-	text-transform:uppercase;
-	font-size:16px;
-	color: #e4e4e4;
-	font-weight:500;
-}
+
 
 
 .service {
@@ -812,7 +802,7 @@ i.respons {
 	border:1px solid #CCCCCC;
 	color: #CCCCCC;
 }
-/* ==========================================================================iPhone Section========================================================================== */
+/* ====================iPhone Section========================================================================== */
 .iphone {
 	width:50%;
 	background:#f3f5f8;
@@ -968,7 +958,7 @@ img.grayscale:hover {
 	top: 50px;
 }
 
-/* ==========================================================================Contact========================================================================== */
+/* =====================Contact========================================================================== */
 .up-btn {
 	width:55px;
 	height:55px;
@@ -1057,7 +1047,7 @@ img.grayscale:hover {
 button,button:focus,button:hover,button:active {
 	outline: none!important;
 }
-/* ==========================================================================Footer========================================================================== */
+/* =========================Footer========================================================================== */
 footer a {
 	color:#a1a9b0;
 }
@@ -1068,7 +1058,7 @@ footer {
 footer p {
 	color: #808080;
 }
-/* ==========================================================================FlexSlider Custom CSS========================================================================== */
+/* ========================FlexSlider Custom CSS========================================================================== */
 #servicesSlider {
 	margin-top:70px;
 }
@@ -1114,7 +1104,7 @@ ul.slides li {
     border-color: #E04343;
 }
 
-/* ==========================================================================Waypoints========================================================================== */
+/* ===================Waypoints========================================================================== */
 .wp1,.wp2,.wp3,.wp4,.wp5,.wp6 {
 	visibility:hidden;
 }
