@@ -58,10 +58,20 @@ h6::after {
 	width: 200px;
 	margin-top: 20px;
 }
+.light-bg{
+	background: #e0e0e3;
+}
 
+.dark-bg{
+	background: #392f2fdc;
+}
 
-
-
+.dark-bg p {
+	color: white;
+}
+.dark-bg h6 {
+	color: white;
+}
 
 /* ==================HTML5 display definitions========================================================================== */
 
@@ -260,12 +270,7 @@ table {
 .section-padding {
 	padding:90px 0 100px 0;
 }
-.dark-bg {
-	background:#f3f5f8;
-}
-.light-bg {
-	background-color:#fff;
-}
+
 .dark-box {
 	background: #F3F5F8;
 	-webkit-box-shadow: 0px 3px 0px 0px #E04343;
@@ -486,9 +491,6 @@ table {
 }
 /* ====================ABOUTME========================================================================== */
 
-.aboutme {
-	background: #392f2fdc;;
-}
 
 .aboutme a {
     color: #FFE800;
@@ -699,10 +701,6 @@ ul li a:hover {
 	-o-background-size:cover;
 	background-size:cover;
 	background-size: cover;	
-}
-
-.servicecolor {
-	background: #e0e0e3;
 }
 
 
