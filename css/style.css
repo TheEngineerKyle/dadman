@@ -61,6 +61,8 @@ h6::after {
 
 
 
+
+
 /* ==================HTML5 display definitions========================================================================== */
 
 article,aside,details,figcaption,figure,footer,header,hgroup,nav,section,summary,kyle,aboutme {
@@ -379,7 +381,7 @@ table {
 /* ========================HOME========================================================================== */
 
 .home {
-	background: url('../img/hero.png') right bottom no-repeat;
+	background: url('../img/d4.jpg') right bottom no-repeat;
 	background-size: contain;
 	padding:110px 0 100px 0;
 	height:auto;
@@ -700,7 +702,7 @@ ul li a:hover {
 }
 
 .servicecolor {
-	background: #e0e0e3;;;
+	background: #e0e0e3;
 }
 
 
