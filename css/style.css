@@ -185,12 +185,12 @@ img {
 svg:not(:root) {
 	overflow: hidden;
 }
-/* ==========================================================================Figures========================================================================== */
+/* ================Figures========================================================================== */
 
 figure {
 	margin: 0;
 }
-/* ==========================================================================Forms========================================================================== */
+/* ====================Forms========================================================================== */
 
 form {
 	margin:0;
@@ -325,7 +325,7 @@ table {
 .custom-navbar .navbar-nav > li > a:hover,
 .custom-navbar .navbar-nav > li > a:focus {
   background-color: transparent;
-  color: #ffffff;
+  color: #910c0c9e;
 }
 
 .custom-navbar .navbar-nav li a:after {
@@ -372,7 +372,7 @@ table {
 
 /* background color */
   .custom-navbar.top-nav-collapse {
-    background: #5b5b66;
+    background: #ffffffd1;
     padding: 15px 0;
   }
 }
