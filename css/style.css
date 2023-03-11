@@ -30,33 +30,32 @@ p {
 	color:#ffffff;
 	word-spacing:1px;
 	line-height:25px;
-	font-size:25px;
-	font-weight:100;
+	font-size:20px;
+	font-weight:50;
 	line-height: 40px!important;
 }
 h2 {
-	font-size:15px;
-	color:#353535!important;
-	text-transform:uppercase;
-	font-weight:bold;
+	font-size: 30px;
+	color:#ffffff!important;
+	font-weight:200;
 }
 h2::after {
 	content:" ";
-	border:solid 1px #CCCCCC;
+	border:solid 1px hsl(0, 0%, 80%);
 	display:block;
-	width:65px;
+	width: 100px;px;
 	margin:20px auto;
 }
 h6 {
-	font-size:20px;
-	color:#ffffff;
-	text-transform:none;
+	font-size: 30px;
+	color:#ffffff!important;
+	font-weight:200;
 }
 h6::after {
 	content:" ";
 	border:solid 1px #CCCCCC;
 	display:block;
-	width:65px;
+	width: 200px;
 	margin-top: 20px;
 }
 
@@ -64,7 +63,7 @@ h6::after {
 
 /* ==================HTML5 display definitions========================================================================== */
 
-article,aside,details,figcaption,figure,footer,header,hgroup,nav,section,summary {
+article,aside,details,figcaption,figure,footer,header,hgroup,nav,section,summary,kyle,aboutme {
 	display:block;
 }
 audio,canvas,video {
@@ -112,36 +111,6 @@ a:active,a:hover {
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:300,400);
 
 
-/* ===========
-h1 {
-	font-size:2em;
-	margin:0.67em 0;
-	color:#353535;
-}
-h2 {
-	font-size:1.5em;
-	margin:0.83em 0;
-}
-h3 {
-	font-size:1.17em;
-	margin:1em 0;
-}
-h4 {
-	font-size:1em;
-	margin:1.33em 0;
-}
-h5 {
-	font-size:0.83em;
-	margin:1.67em 0;
-}
-h6 {
-	font-size: 12px;
-	margin:2.33em 0;
-}
- ============ */
-
-
-
 
 abbr[title] {
 	border-bottom:1px dotted;
@@ -160,7 +129,7 @@ mark {
 	background:#ff0;
 	color:#000;
 }
-,pre {
+pre {
 	margin:1em 0;
 }
 code,kbd,pre,samp {
@@ -195,7 +164,7 @@ sup {
 sub {
 	bottom:-0.25em;
 }
-/* ==========================================================================Lists========================================================================== */
+/* ======================Lists========================================================================== */
 
 dl,menu,ol,ul {
 	margin:1em 0;
@@ -207,7 +176,7 @@ menu,ol,ul {
 	padding:0 0 0 40px;
 }
 
-/* ==========================================================================Embedded content========================================================================== */
+/* ========================Embedded content========================================================================== */
 
 img {
 	border:0;
@@ -414,15 +383,16 @@ table {
 	background-size: contain;
 	padding:110px 0 100px 0;
 	height:auto;
-	background-color: #ced2d3;
+	background-color: #dfdfdf;
 }
 .home h1 {
-	font-size: 120px;
+	font-size: 100px;
+	font-weight: 20;
+	color: #2e2d2d;
 	letter-spacing: -8px;
 	margin: 0;
 	font-weight: 550;
 	line-height: 95px;
-	text-transform: none;
 	
 }
 .home h1 span {
@@ -430,13 +400,13 @@ table {
 	/* display:inline-block; */
 }
 .home h3 {
-	font-size: 20px;
+	font-size: 25px;
+	font-weight: 400;
 	margin:0;
 	padding:0;
 	opacity:0.5;
 	color: #E04343;
 	letter-spacing: 18px;
-	line-height: 50px;
 	text-transform: uppercase;
 }
 .home p {
@@ -724,23 +694,20 @@ ul li a:hover {
 /* =======SERVICE========================================================================= */
 .service-image {
 	height:550px;
-	-webkit-background-size:contain;
-	-moz-background-size:contain;
-	-o-background-size:contain;
-	background-size:contain;
-	background-size: contain;
-	background-repeat: no-repeat;
-	
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+	background-size:cover;
+	background-size: cover;	
 }
 
-
 .servicecolor {
-	background: #5B5B66;
+	background: #7e7e7e;
 }
 
 
 .service-text {
-	padding: 50px;;
+	padding: 50px;
 }
 
 
