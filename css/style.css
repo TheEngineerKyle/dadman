@@ -393,13 +393,13 @@ table {
 	background-color: #dfdfdf;
 }
 .home h1 {
-	font-size: 100px;
+	font-size: 120px;
 	font-weight: 20;
 	color: #2e2d2d;
-	letter-spacing: -8px;
-	margin: 0;
+	letter-spacing: -5px;
+	margin: auto;
 	font-weight: 550;
-	line-height: 95px;
+	line-height: 100px;
 	
 }
 .home h1 span {
