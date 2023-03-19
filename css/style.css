@@ -30,9 +30,9 @@ p {
 	color: #5B5B66;
 	word-spacing:1px;
 	line-height:25px;
-	font-size:20px;
+	font-size:18px;
 	font-weight:50;
-	line-height: 40px!important;
+	line-height: 36px!important;
 }
 h2 {
 	font-size: 30px;
@@ -47,7 +47,7 @@ h2::after {
 	margin:20px auto;
 }
 h6 {
-	font-size: 30px;
+	font-size: 28px;
 	color:#15141A;!important;
 	font-weight:200;
 }
@@ -55,7 +55,7 @@ h6::after {
 	content:" ";
 	border:solid 1px #CCCCCC;
 	display:block;
-	width: 200px;
+	width: 75px;
 	margin-top: 20px;
 }
 .light-bg{
@@ -489,6 +489,17 @@ table {
 	/* Safari and Chrome */-o-animation: arrowbounce 1s alternate infinite;
 	/* Opera */
 }
+
+/* ====================INTRO========================================================================== */
+
+.intro {
+	-webkit-transition:all 3s ease-in-out;
+	padding-bottom: 150px;
+}
+
+
+
+
 /* ====================ABOUTME========================================================================== */
 
 
